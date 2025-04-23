@@ -668,13 +668,9 @@ About Three
 
 .about-three__img1 .inner img {
     width: 100%;
-    transition: all 500ms ease;
 }
 
-.about-three__img1:hover .inner img {
-    opacity: 0.7;
-    transform: scaleX(1.05);
-}
+
 
 .about-three__img2 {
     position: absolute;

@@ -307,7 +307,7 @@ Working Process Two
     opacity: 0;
     transform: scaleY(0.9);
     transform-origin: top bottom;
-    background: var(--billdins-gray-bg);
+    /* background: var(--billdins-gray-bg); */
 }
 
 .work-process-two .tabs-content .tab.tab-active .work-process-two__single-tab {
