@@ -334,7 +334,7 @@ Working Process Two
 .work-process-two__single-content {
     position: relative;
     display: block;
-    padding: 60px 0px 114px;
+    /* padding: 60px 0px 114px; */
 }
 
 .work-process-two__single-content .container {
