@@ -120,15 +120,15 @@
   
     <div class="w-fit container mx-auto sm:items-center sm:justify-between">
         <div class="mb-8 gap-2  font-medium sm:bg-transparent p-5 sm:p-0 rounded-md flex items-center justify-center">
-            <img src="/img/logo11.svg" alt="logo" class="md:h-14 h-12">
+            <img src="/img/logo-white.svg" alt="logo" class="md:h-14 h-12">
         </div>
          <nav>
             <ul class=" md:text-sm gap-2 font-data">
                     <li on:click="{()=> menu_open = !menu_open }" class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
-                        <a href="/"  class="cursor-pointer text-black font-bold hover:text-black uppercase ">Home</a>
+                        <a href="/"  class="cursor-pointer text-white font-bold uppercase ">Home</a>
                     </li>
                     <li on:click="{()=> menu_open = !menu_open }" class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
-                      <a href="#About"  class="cursor-pointer text-black font-bold hover:text-black uppercase ">About</a>
+                      <a href="#About"  class="cursor-pointer text-white font-bold  uppercase ">About</a>
                     </li>
                    
                     
