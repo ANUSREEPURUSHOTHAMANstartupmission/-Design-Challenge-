@@ -22,7 +22,7 @@ Common
 :root {
   --billdins-font: "Public Sans", sans-serif;
   --billdins-font-two: "Exo", sans-serif;
-  --billdins-base: #0e93db;
+  --billdins-base: #E8422E;
   --billdins-base-rgb: 255, 94, 20;
   --billdins-black: #0E121D;
   --billdins-black-rgb: 14, 18, 29;
@@ -56,7 +56,7 @@ body.locked {
 }
 
 a {
-  color: var(--billdins-base);
+  color: #E8422E;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -95,7 +95,7 @@ h4,
 h5,
 h6 {
   font-family: var(--billdins-font-two);
-  color: var(--billdins-black);
+  /* color: var(--billdins-black); */
   margin: 0;
 }
 
@@ -118,20 +118,20 @@ ul {
 ::-webkit-scrollbar-track {
   box-shadow: none;
   -webkit-box-shadow: none;
-  background-color: var(--billdins-base);
+  background-color: #E8422E;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar,
 ::-webkit-scrollbar {
   width: 8px;
-  background-color: var(--billdins-base);
+  background-color: #E8422E;
 }
 
 ::-webkit-scrollbar-thumb,
 ::-webkit-scrollbar-thumb {
   border-radius: 0px;
-  background-image: linear-gradient(0deg, var(--billdins-base) 0%, var(--billdins-black) 47.60%, var(--billdins-black) 99.23%);
+  background-image: linear-gradient(0deg, #E8422E 0%, var(--billdins-black) 47.60%, var(--billdins-black) 99.23%);
 }
 
 .xs-sidebar-widget::-webkit-scrollbar {
@@ -233,7 +233,7 @@ Custom Cursor
   width: 25px;
   height: 25px;
   border-radius: 100%;
-  border: 1px solid var(--billdins-base);
+  border: 1px solid #E8422E;
   -webkit-transition: all 200ms ease-out;
   transition: all 200ms ease-out;
   position: fixed;
@@ -249,7 +249,7 @@ Custom Cursor
   width: 10px;
   height: 10px;
   border-radius: 100%;
-  background-color: var(--billdins-base);
+  background-color: #E8422E;
   opacity: .3;
   position: fixed;
   -webkit-transform: translate(-50%, -50%);
@@ -261,7 +261,7 @@ Custom Cursor
 }
 
 .custom-cursor__hover {
-  background-color: var(--billdins-base);
+  background-color: #E8422E;
   opacity: 0.4;
 }
 
@@ -299,7 +299,7 @@ Sec Title Css
   display: block;
   width: 20px;
   height: 2px;
-  background: var(--billdins-base);
+  background: #E8422E;
   margin-right: 15px;
 }
 
@@ -309,7 +309,7 @@ Sec Title Css
   right: 0px;
   width: 5px;
   height: 5px;
-  background: var(--billdins-base);
+  background: #E8422E;
   border-radius: 50%;
   content: "";
   transform: translateY(-50%);
@@ -321,7 +321,7 @@ Sec Title Css
   right: -2px;
   width: 10px;
   height: 10px;
-  border: 1px solid var(--billdins-base);
+  border: 1px solid #E8422E;
   border-radius: 50%;
   transform: translateY(-50%);
   content: "";
@@ -333,7 +333,7 @@ Sec Title Css
 }
 
 .sec-title__tagline .text h4 {
-  color: var(--billdins-base);
+  color: #E8422E;
   font-size: 18px;
   line-height: 25px;
   font-weight: 600;
@@ -346,7 +346,7 @@ Sec Title Css
   display: block;
   width: 20px;
   height: 2px;
-  background: var(--billdins-base);
+  background: #E8422E;
   margin-left: 15px;
 }
 
@@ -356,7 +356,7 @@ Sec Title Css
   left: 0px;
   width: 5px;
   height: 5px;
-  background: var(--billdins-base);
+  background: #E8422E;
   border-radius: 50%;
   content: "";
   transform: translateY(-50%);
@@ -368,7 +368,7 @@ Sec Title Css
   left: -2px;
   width: 10px;
   height: 10px;
-  border: 1px solid var(--billdins-base);
+  border: 1px solid #E8422E;
   border-radius: 50%;
   transform: translateY(-50%);
   content: "";
@@ -394,7 +394,7 @@ Sec Title Css
   font-size: 14px;
   line-height: 55px;
   font-weight: 600;
-  background: var(--billdins-base);
+  background: #E8422E;
   border-radius: 5px;
   padding: 0px 35px 0px;
   overflow: hidden;
@@ -564,7 +564,7 @@ Sec Title Css
 
 .rating-box a {
   position: relative;
-  color: var(--billdins-base);
+  color: #E8422E;
 }
 
 .rating-box a i::before {
@@ -618,8 +618,8 @@ Sec Title Css
 .styled-pagination li:hover a,
 .styled-pagination li.active a {
   color: var(--billdins-white);
-  background: var(--billdins-base);
-  border-color: var(--billdins-base);
+  background: #E8422E;
+  border-color: #E8422E;
 }
 
 .styled-pagination li.prev a,
@@ -673,7 +673,7 @@ Scroll To Top Css
 }
 
 .scroll-to-top:hover {
-  color: var(--billdins-base);
+  color: #E8422E;
 }
 
 .scroll-to-top__text {
@@ -689,7 +689,7 @@ Scroll To Top Css
   display: inline-block;
   width: 30px;
   height: 4px;
-  background-color: var(--billdins-base);
+  background-color: #E8422E;
   position: relative;
   overflow: hidden;
 }
@@ -801,7 +801,7 @@ Search Popup Css
   top: 0;
   right: -1px;
   border-radius: 0;
-  background-color: var(--billdins-base);
+  background-color: #E8422E;
   border: 0;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -847,7 +847,7 @@ Search Popup Css
   width: 60px;
   height: 60px;
   margin: 0 auto;
-  background-color: var(--billdins-base);
+  background-color: #E8422E;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1004,11 +1004,11 @@ Mobile Nav Css
 }
 
 .mobile-nav__content .main-menu__list>li>a.expanded .mobile-nav__content .main-menu__list>li>ul>li>a.expanded .mobile-nav__content .main-menu__list>li>ul>li>ul>li>a.expanded {
-  color: var(--billdins-base);
+  color: #E8422E;
 }
 
 .mobile-nav__content .main-menu__list li a.expanded {
-  color: var(--billdins-base);
+  color: #E8422E;
 }
 
 .mobile-nav__content .main-menu__list>li>a>button,
@@ -1016,7 +1016,7 @@ Mobile Nav Css
 .mobile-nav__content .main-menu__list>li>ul>li>ul>li>a>button {
   width: 30px;
   height: 30px;
-  background-color: var(--billdins-base);
+  background-color: #E8422E;
   border: none;
   outline: none;
   color: #fff;
@@ -1045,7 +1045,7 @@ Mobile Nav Css
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
   background-color: #fff;
-  color: var(--billdins-base);
+  color: #E8422E;
 }
 
 /* no menu after 2rd level dropdown */
@@ -1109,7 +1109,7 @@ Mobile Nav Css
 }
 
 .mobile-nav__social a:hover {
-  color: var(--billdins-base);
+  color: #E8422E;
 }
 
 .mobile-nav__contact {
@@ -1142,14 +1142,14 @@ Mobile Nav Css
 }
 
 .mobile-nav__contact li a:hover {
-  color: var(--billdins-base);
+  color: #E8422E;
 }
 
 .mobile-nav__contact li>i {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: var(--billdins-base);
+  background-color: #E8422E;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1257,7 +1257,7 @@ Home Showcase Css
   width: 150px;
   text-align: center;
   color: var(--billdins-white);
-  background-color: var(--billdins-base);
+  background-color: #E8422E;
 }
 
 .home-showcase__buttons__item+.home-showcase__buttons__item {
@@ -1318,7 +1318,7 @@ Main Header One Css
   left: 55%;
   bottom: 0;
   right: 0px;
-  border-top: 42px solid var(--billdins-base);
+  border-top: 42px solid #E8422E;
   border-left: 23px solid transparent;
   content: "";
   z-index: -1;
@@ -1377,7 +1377,7 @@ Main Header One Css
 .header-style1__contact li .icon i {
   position: relative;
   display: inline-block;
-  color: var(--billdins-base);
+  color: #E8422E;
   font-size: 16px;
   line-height: 16px;
 }
@@ -1399,7 +1399,7 @@ Main Header One Css
 }
 
 .header-style1__contact li .text p a:hover {
-  color: var(--billdins-base);
+  color: #E8422E;
 }
 
 .main-header-one__top-right {
@@ -1448,7 +1448,7 @@ Main Header One Css
 }
 
 .main-header__language-switcher .nice-select {
-  background-color: var(--billdins-base);
+  background-color: #E8422E;
   border-radius: 0px;
   color: var(--billdins-white);
   font-size: 15px;
@@ -1471,7 +1471,7 @@ Main Header One Css
 
 .main-header__language-switcher .nice-select .list {
   width: 115px;
-  background-color: var(--billdins-base);
+  background-color: #E8422E;
 }
 
 .header-style1__social-links {
@@ -1590,7 +1590,7 @@ Main Header One Css
 }
 
 .main-menu__search:hover {
-  color: var(--billdins-base);
+  color: #E8422E;
 }
 
 .main-header__shop {
@@ -1611,7 +1611,7 @@ Main Header One Css
 }
 
 .main-header__shop .icon-box a:hover {
-  color: var(--billdins-base);
+  color: #E8422E;
 }
 
 .main-header__shop .icon-box a i::before {
@@ -1631,7 +1631,7 @@ Main Header One Css
   justify-content: center;
   width: 17px;
   height: 17px;
-  background: var(--billdins-base);
+  background: #E8422E;
   border-radius: 50%;
 }
 
@@ -1722,7 +1722,7 @@ Main Header One Css
 .main-menu .main-menu__list>li:hover>a,
 .stricky-header .main-menu__list>li.current>a,
 .stricky-header .main-menu__list>li:hover>a {
-  color: var(--billdins-base);
+  color: #E8422E;
 }
 
 .main-menu .main-menu__list>li.dropdown>a {
@@ -1748,7 +1748,7 @@ Main Header One Css
 .main-menu .main-menu__list>li:hover>a::after,
 .stricky-header .main-menu__list>li.current>a::after,
 .stricky-header .main-menu__list>li:hover>a::after {
-  color: var(--billdins-base);
+  color: #E8422E;
 }
 
 .main-menu .main-menu__list>li>ul,
@@ -1863,7 +1863,7 @@ Main Header One Css
   font-weight: 900;
   content: "\f105";
   font-size: 14px;
-  color: var(--billdins-base);
+  color: #E8422E;
   transform: translateY(-50%) scale(0);
   -webkit-transition: 500ms;
   transition: 500ms;
@@ -1967,7 +1967,7 @@ Main Header One Css
 
 .mobile-nav__buttons a {
   font-size: 20px;
-  color: var(--billdins-base);
+  color: #E8422E;
   cursor: pointer;
 }
 
@@ -1976,12 +1976,12 @@ Main Header One Css
 }
 
 .mobile-nav__buttons a:hover {
-  color: var(--billdins-base);
+  color: #E8422E;
 }
 
 .main-menu .mobile-nav__toggler {
   font-size: 20px;
-  color: var(--billdins-base);
+  color: #E8422E;
   cursor: pointer;
   -webkit-transition: 500ms;
   transition: 500ms;
@@ -2008,7 +2008,7 @@ Main Header Two Css
 }
 
 .main-header-one.style2 .main-header-one__top {
-  background-color: var(--billdins-base);
+  background-color: #E8422E;
 }
 
 .main-header-one.style2 .main-header-one__top::before {
@@ -2031,7 +2031,7 @@ Main Header Two Css
 }
 
 .main-header-one.style2 .header-style1__social-links a:hover {
-  color: var(--billdins-base);
+  color: #E8422E;
 }
 
 .main-header-one.style2 .main-header__language-switcher .nice-select {
@@ -2059,7 +2059,7 @@ Main Header Two Css
   top: -19px;
   left: -99999px;
   right: 0px;
-  border-bottom: 93px solid var(--billdins-base);
+  border-bottom: 93px solid #E8422E;
   border-right: 35px solid transparent;
   content: "";
   z-index: -1;
@@ -2067,7 +2067,7 @@ Main Header Two Css
 
 
 .stricky-header.stricky-header--two {
-  background: var(--billdins-base);
+  background: #E8422E;
 }
 
 .stricky-header.stricky-header--two .main-menu__list>li>a {
